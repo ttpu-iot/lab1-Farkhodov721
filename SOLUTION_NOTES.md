@@ -82,6 +82,7 @@ Open `src/esp32_lab1.ino` and find lines 4-12:
 - **Serial Output:** `snapshot=xxxx`
 - **Acknowledgment:** Flash YELLOW (D23) for 100ms
 - **Features:** Includes debouncing (500ms between snapshots)
+- **Implementation Note:** Uses `delay(100)` for the YELLOW flash, which is acceptable since Exercise 5 is designed to "do nothing until button is pressed" - the brief blocking delay is intentional for the visual acknowledgment
 - **Status:** Correctly implemented
 
 ### Exercise 6: Minimal serial control ✓
